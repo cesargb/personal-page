@@ -1,0 +1,94 @@
+.page--index {
+  padding: 3em;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+
+    a {
+      svg {
+        width: 1.5em;
+        height: 1.5em;
+        fill: var(--fg-color-light);
+        transition: fill 0.2s ease-in-out;
+      }
+
+      &:hover {
+        svg {
+          fill: var(--fg-color);
+        }
+      }
+    }
+
+
+  }
+
+  .profile {
+    margin-top: 2em;
+    max-width: 600px;
+    font-size: 1.5em;
+
+    &__title {
+      display: flex;
+      align-items: flex-end;
+      gap: .2em;
+      flex-wrap: wrap;
+      font-size: 2em;
+      color: var(--fg-color-light);
+
+      h1 {
+        color: var(--fg-color-special);
+        margin: 0;
+        font-size: 1em;
+      }
+    }
+
+    &__content {
+      margin-top: 0.1em;
+      font-size: 1em;
+    }
+  }
+
+  .experience {
+    margin-top: 3em;
+
+    &__title {
+      font-size: 1.5em;
+      color: var(--fg-color-light);
+    }
+
+    &__content {
+      margin-top: 1em;
+      display: flex;
+      gap: 2em;
+      flex-wrap: wrap;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        max-width: 300px;
+        font-size: 1em;
+
+        &__image {
+          svg {
+            width: 2em;
+            height: 2em;
+            fill: var(--fg-color-light);
+
+            path {
+              fill: var(--fg-color-light);
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
