@@ -14,11 +14,14 @@
     left: 65vw;
     width: 10px;
     height: 10px;
-    border: solid 1px darken(#222, 1%);
+    border: solid 1px #acacac11;
     transform-origin: top left;
     transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    animation: cube 12s ease-in forwards infinite;
+    animation: cube 15s ease-in forwards infinite;
 
+    &:nth-child(2n) {
+      border-color: #e2515111;
+    }
 
     &:nth-child(2) {
       animation-delay: 4s;
@@ -43,7 +46,7 @@
   @keyframes cube {
     from {
       transform: scale(0) rotate(0deg) translate(-50%, -50%);
-      opacity: 1;
+      opacity: .5;
     }
     to {
       transform: scale(20) rotate(960deg) translate(-50%, -50%);
