@@ -3,17 +3,23 @@
     <section class="profile">
         <div class="profile__title">
             <div>Hola,</div>
-            <h1>Soy Cesar Garcia</h1>
+            <h1>mi nombre es Cesar Garcia</h1>
         </div>
 
         <div class="profile__content">
             Soy un desarrollador entusiasta, me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos.
         </div>
+
+        <div class="profile__work">
+            Trabajo en <a href="https://www.descom.es" target="__blank">Descom.es</a>, una empresa técnologica
+            con más de 30 años en el sector, donde como CTO mi principal tarea es diseñar y desarrollar soluciones
+            mediante la innovación y la tecnología.
+        </div>
     </section>
 
     <section class="experience">
         <div class="experience__title">
-            <h2>Mi experiencia</h2>
+            <h2>Mi experiencia como desarrollador</h2>
         </div>
 
         <div class="experience__content">
@@ -49,6 +55,10 @@
 
 <script setup lang="ts">
 useHead({
+  title: "Cesar Garcia: arquitecto de software y desarrollador",
+  meta: [
+    { name: 'description', content: 'Hola me presento, mi nombre es Cesar García y me entusiasma todo lo relacionado al desarrollo y siempre busco nuevos retos que me puedan inspirar.' }
+  ],
   link: [
     { rel: "alternate", hreflang: "en", href: "https://cesargb.dev/en" },
   ]

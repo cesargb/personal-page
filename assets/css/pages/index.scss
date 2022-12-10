@@ -34,12 +34,16 @@
     font-size: 1.5em;
 
     &__title {
-      display: flex;
-      align-items: flex-end;
-      gap: .2em;
-      flex-wrap: wrap;
       font-size: 2em;
       color: var(--fg-color-light);
+
+      div, h1 {
+        display: inline;
+      }
+
+      div {
+        margin-right: .2em;
+      }
 
       h1 {
         color: var(--fg-color-special);
@@ -49,8 +53,15 @@
     }
 
     &__content {
-      margin-top: 0.1em;
+      margin-top: 1em;
       font-size: 1em;
+    }
+
+    &__work {
+      margin-top: 1em;
+      font-size: 1rem;
+      line-height: 1.3em;
+      color: var(--fg-color-light);
     }
   }
 
@@ -91,4 +102,11 @@
     }
   }
 
+  @media (max-width: 768px) {
+    padding: 1em;
+
+    .profile {
+      margin-top: 0em;
+    }
+  }
 }
