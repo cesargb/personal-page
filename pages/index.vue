@@ -7,7 +7,7 @@
         </div>
 
         <div class="profile__content">
-            Soy un desarrollador entusiasta, me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos.
+            Soy un entusiasta desarrollador, me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos.
         </div>
 
         <div class="profile__work">

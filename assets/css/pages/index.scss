@@ -1,5 +1,6 @@
 .page--index {
-  padding: 3em;
+  padding: 2em;
+  font-size: clamp(1rem, 0.6429rem + 1.1429vw, 1.5rem);
 
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -29,9 +30,8 @@
   }
 
   .profile {
-    margin-top: 2em;
-    max-width: 600px;
     font-size: 1.5em;
+    max-width: 800px;
 
     &__title {
       font-size: 2em;
@@ -59,7 +59,7 @@
 
     &__work {
       margin-top: 1em;
-      font-size: 1rem;
+      font-size: 0.5em;
       line-height: 1.3em;
       color: var(--fg-color-light);
     }
@@ -71,6 +71,10 @@
     &__title {
       font-size: 1.5em;
       color: var(--fg-color-light);
+
+      h2 {
+        font-size: 1em;
+      }
     }
 
     &__content {
@@ -102,11 +106,11 @@
     }
   }
 
-  @media (max-width: 768px) {
-    padding: 1em;
+  // @media (max-width: 768px) {
+  //   padding: 1em;
 
-    .profile {
-      margin-top: 0em;
-    }
-  }
+  //   .profile {
+  //     margin-top: 0em;
+  //   }
+  // }
 }

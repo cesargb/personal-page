@@ -3,13 +3,13 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: 'en',
+        lang: 'es',
       },
       charset: 'utf-16',
       viewport: 'width=device-width, initial-scale=1',
       title: 'Cesar Garcia',
       meta: [
-        { name: 'description', content: 'I´m a enthusiastic developer, I love to learn new things and I´m always looking for new challenges.' }
+        { name: 'description', content: 'Soy un desarrollador entusiasta, me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos' }
       ],
     }
   },

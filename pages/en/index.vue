@@ -1,20 +1,25 @@
 <template>
   <div class="page--index">
-
     <section class="profile">
         <div class="profile__title">
             <div>Hello,</div>
-            <h1>I'm Cesar Garcia</h1>
+            <h1>my name is Cesar Garcia</h1>
         </div>
 
         <div class="profile__content">
             I´m a enthusiastic developer, I love to learn new things and I´m always looking for new challenges.
         </div>
+
+        <div class="profile__work">
+            I work in <a href="https://www.descom.es" target="__blank">Descom.es</a>, a technological company
+            with more than 30 years in the sector, where as CTO my main task is to design and develop solutions
+            through innovation and technology.
+        </div>
     </section>
 
     <section class="experience">
         <div class="experience__title">
-            <h2>My Experience</h2>
+            <h2>My Experience in developer</h2>
         </div>
 
         <div class="experience__content">
@@ -49,14 +54,17 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({
-  layout: "en",
-})
-
 useHead({
+  title: "Cesar Garcia: software architect and developer",
+  meta: [
+    { name: 'description', content: 'Hello, let me introduce myself, my name is Cesar García and I am enthusiastic about everything related to development and I am always looking for new challenges that can inspire me.' }
+  ],
+  htmlAttrs: {
+    lang: 'en',
+  },
   link: [
     { rel: "alternate", hreflang: "es", href: "https://cesargb.dev" },
-  ],
+  ]
 })
 </script>
 

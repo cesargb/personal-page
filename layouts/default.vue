@@ -1,6 +1,6 @@
 <template>
-  <div class="layout-es">
-    <header class="header-main">
+  <div class="layout">
+    <header>
         <nav>
             <ul>
                 <li>
@@ -15,17 +15,8 @@
         </nav>
     </header>
 
-    <slot />
+    <main>
+      <slot />
+    </main>
   </div>
 </template>
-
-<script setup lang="ts">
-useHead({
-  meta: [
-    { name: 'description', content: 'Soy un desarrollador entusiasta, me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos.' }
-  ],
-  htmlAttrs: {
-    lang: 'es',
-  }
-})
-</script>
