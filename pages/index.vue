@@ -50,6 +50,8 @@
         </div>
     </section>
 
+    <Cube />
+
   </div>
 </template>
 
