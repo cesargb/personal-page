@@ -3,7 +3,7 @@
   --fg-color: #fff;
   --bg-color-special: #222;
   --fg-color-special: #e25151;
-  --fg-color-light: #858585;
+  --fg-color-light: #acacac;
 }
 
 body {
@@ -16,4 +16,38 @@ body {
 
 a {
   color: var(--fg-color);
+}
+
+.header-main {
+  padding: 0.5em 1em;
+
+  nav {
+    ul {
+      margin: 0.2em 0;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      gap: 2em;
+
+      li {
+        text-transform: uppercase;
+        color: var(--fg-color-light);
+        fill: var(--fg-color-light);
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+
+        label {
+          display: flex;
+        align-items: center;
+        }
+
+        svg {
+          width: 1.1em;
+          height: 1.1em;
+          fill: var(--fg-color-light);
+        }
+      }
+    }
+  }
 }
