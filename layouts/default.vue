@@ -26,9 +26,6 @@ useHead({
   ],
   htmlAttrs: {
     lang: 'es',
-  },
-  // link: [
-  //   { rel: "alternate", hreflang: "en", href: "https://cesargb.dev" },
-  // ]
+  }
 })
 </script>

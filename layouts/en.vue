@@ -22,10 +22,10 @@
 <script setup lang="ts">
 useHead({
   meta: [
-    { name: 'description', content: 'Soy un desarrollador entusiasta, me encanta aprender cosas nuevas y siempre estoy buscando nuevos desafíos.' }
+    { name: 'description', content: 'I´m a enthusiastic developer, I love to learn new things and I´m always looking for new challenges.' }
   ],
   htmlAttrs: {
-    lang: 'es',
+    lang: 'en',
   },
   link: [
     { rel: "alternate", hreflang: "es", href: "https://cesargb.dev" },
