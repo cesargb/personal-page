@@ -73,7 +73,10 @@ export const useChangeLang = (lang: string): null|string  => {
     return null
   }
 
-  const langCookie = useCookie('lang')
+  const langCookie = useCookie('lang', {
+    sameSite: true,
+    secure: true,
+  })
 
   langCookie.value = lang
 
