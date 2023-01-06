@@ -35,6 +35,12 @@ export const useDefaultLang = (): string => {
     if (reqLocale) {
       lang = reqLocale
     }
+  } else {
+    const navigatorLang = navigator.language.split('-')[0]
+
+    if (languagesSupported.includes(navigatorLang)) {
+      lang = navigatorLang
+    }
   }
 
   return lang
