@@ -50,10 +50,30 @@
         </div>
     </section>
 
+    <section class="open-source">
+        <div class="open-source__title">
+            <h2>Open source</h2>
+        </div>
+
+        <div class="open-source__content">
+            <GithubRepositoryItem v-for="repository in repositories"
+                :key="repository.repository"
+                class="item"
+                tag-title="h3"
+                :repository="repository.repository"
+                :tags="repository.tags"
+                :description="repository.description.en"
+            />
+
+        </div>
+    </section>
+
   </div>
 </template>
 
 <script setup lang="ts">
+import repositories from '@/assets/data/repositories.json'
+
 useHead({
   title: "Cesar Garcia: software architect and developer",
   meta: [
