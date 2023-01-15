@@ -6,29 +6,6 @@
     margin: 0;
   }
 
-  header {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 1em;
-
-    a {
-      svg {
-        width: 1.5em;
-        height: 1.5em;
-        fill: var(--fg-color-light);
-        transition: fill 0.2s ease-in-out;
-      }
-
-      &:hover {
-        svg {
-          fill: var(--fg-color);
-        }
-      }
-    }
-
-
-  }
-
   .profile {
     font-size: 1.5em;
     max-width: 800px;
@@ -116,9 +93,17 @@
 
     &__content {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+      @media (max-width: 500px) {
+        grid-template-columns: 1fr;
+      }
 
       .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.5em;
         border: 1px solid var(--fg-color-light);
         padding: 1em;
         border-radius: 1em;
@@ -132,9 +117,12 @@
           }
         }
 
+        .badges {
+          display: flex;
+          gap: .5em;
+        }
+
         .tags {
-          margin-top: .5em;
-          margin-bottom: 1em;
           display: flex;
           flex-wrap: wrap;
           gap: 0.5em;

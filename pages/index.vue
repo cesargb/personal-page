@@ -63,6 +63,7 @@
                 :repository="repository.repository"
                 :tags="repository.tags"
                 :description="repository.description.es"
+                :badges="repository.badges"
             />
 
         </div>

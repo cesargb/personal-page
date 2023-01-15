@@ -11,7 +11,14 @@
                 {{ tag }}
             </em>
         </div>
+
         <div class="description" v-html="description" />
+
+        <div class="badges">
+            <a v-for="badge in props.badges" :key="badge" :href="badge.url" target="_blank">
+                <img :src="badge.image" :alt="badge.alt" />
+            </a>
+        </div>
     </div>
 </template>
 
@@ -28,6 +35,7 @@
         tagTitle: { type: String, default: 'div' },
         repository: { type: String, required: true },
         tags: { type: Array as PropType<Array<string>>, default: () => [] },
+        badges: { type: Array as PropType<Array<any>>, default: () => [] },
         description: { type: String, default: '' },
         class: { type: String, default: '' },
     })
