@@ -52,7 +52,7 @@
 
     <section class="open-source">
         <div class="open-source__title">
-            <h2>Open source</h2>
+            <h2>Proyectos</h2>
         </div>
 
         <div class="open-source__content">

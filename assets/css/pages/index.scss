@@ -116,8 +116,12 @@
 
     &__content {
       display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 
       .item {
+        border: 1px solid var(--fg-color-light);
+        padding: 1em;
+        border-radius: 1em;
 
         .title {
           svg {
