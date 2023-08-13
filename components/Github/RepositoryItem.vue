@@ -30,7 +30,6 @@
     import remarkRehype from 'remark-rehype'
     import rehypeStringify from 'rehype-stringify'
 
-
     const props = defineProps({
         tagTitle: { type: String, default: 'div' },
         repository: { type: String, required: true },

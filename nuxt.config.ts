@@ -19,4 +19,15 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content'
   ],
+  content: {
+    highlight: {
+      // Theme used in all color schemes.
+      theme: {
+        default: 'github-dark',
+        // Theme used if `html.dark`
+        dark: 'github-dark',
+      },
+      preload: ['bash', 'ts', 'js', 'css', 'php', 'sql', 'json'],
+    }
+  }
 })
