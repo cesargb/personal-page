@@ -1,6 +1,7 @@
 .page--index {
-  padding: 2em;
-  font-size: clamp(1.5rem, 0.6429rem + 1.1429vw, 3rem);
+  padding: 0 1em;
+
+  font-size: clamp(1.2rem, 0.6429rem + 1.1429vw, 3rem);
 
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -120,6 +121,8 @@
         .badges {
           display: flex;
           gap: .5em;
+          flex-wrap: wrap;
+          justify-content: center;
         }
 
         .tags {

@@ -62,11 +62,11 @@ a {
   }
 
   main {
-    padding: 1em;
+    margin: 1em;
 
     > * {
       max-width: 1280px;
-      margin: auto;
+      margin: 0 auto;
     }
   }
 }
