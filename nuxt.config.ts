@@ -13,12 +13,15 @@ export default defineNuxtConfig({
       ],
     }
   },
+
   css: [
     '~/assets/css/main.scss',
   ],
+
   modules: [
     '@nuxt/content'
   ],
+
   content: {
     highlight: {
       // Theme used in all color schemes.
@@ -28,6 +31,14 @@ export default defineNuxtConfig({
         dark: 'github-dark',
       },
       preload: ['bash', 'ts', 'js', 'css', 'php', 'sql', 'json'],
+    }
+  },
+
+  nitro: {
+    awsAmplify: {
+      // catchAllStaticFallback: true,
+      // imageOptimization: { "/_image", cacheControl: "public, max-age=3600, immutable" },
+      // imageSettings: { ... },
     }
   }
 })
