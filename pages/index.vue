@@ -3,7 +3,7 @@
     <section class="profile">
         <div class="profile__title">
             <div>Hola,</div>
-            <h1>mi nombre es Cesar Garcia</h1>
+            <h1>mi nombre es César García</h1>
         </div>
 
         <div class="profile__content">
