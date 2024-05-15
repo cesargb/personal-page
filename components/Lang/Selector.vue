@@ -1,8 +1,8 @@
 <template>
   <div class="lang-selector">
-    <label>
+    <label for="selectedLang">
       <IconGlobe />
-      <select v-model="lang" @change="changeLang()">
+      <select v-model="lang" @change="changeLang()" id="selectedLang" aria-label="Cambiar idioma">
       <option v-for="langSupported in useLangSupported()" :key="langSupported" :value="langSupported">
         {{ langSupported }}
       </option>
