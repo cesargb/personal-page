@@ -12,8 +12,8 @@
 
         <div class="profile__work">
             I work in <a href="https://www.descom.es" target="__blank">Descom.es</a>, a technological company
-            with more than 30 years in the sector, where as CTO my main task is to design and develop solutions
-            through innovation and technology.
+            with more than 30 years in the sector as a Software Architect, where my main functions are to design
+            and develop solutions through innovation and technology.
         </div>
     </section>
 

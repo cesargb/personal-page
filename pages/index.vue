@@ -12,8 +12,8 @@
 
         <div class="profile__work">
             Trabajo en <a href="https://www.descom.es" target="__blank">Descom.es</a>, una empresa técnologica
-            con más de 30 años en el sector, donde como CTO mi principal tarea es diseñar y desarrollar soluciones
-            mediante la innovación y la tecnología.
+            con más de 30 años en el sector como Arquitecto de Software, donde mis principales funciones son diseñar
+            y desarrollar soluciones mediante la innovación y la tecnología.
         </div>
     </section>
 
