@@ -86,7 +86,6 @@ useHead({
     { rel: "alternate", hreflang: "en", href: "https://cesargb.dev/en" },
   ]
 })
-
 </script>
 
 <style lang="scss">
